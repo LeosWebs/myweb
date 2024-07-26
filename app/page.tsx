@@ -1,10 +1,18 @@
+'use client'
+import OurComponent from "@/components/hiddenMore/page"
 import CirclesOne from "@/components/rain/page"
 import CirclesTwo from "@/components/wolkig/page"
+import Header from "@/components/header/page"
+import MyComponent from "@/components/hidden/page"
 
 function Home() {
   return(
-    <div className="h-full text-center font-bold text-3xl pt-36">
-      <p>Coming soon!</p>
+    <div>
+      <Header/>
+      <MyComponent/>
+      <CirclesOne/>
+      <OurComponent/>
+      <CirclesTwo/>
     </div>
   )
 }
